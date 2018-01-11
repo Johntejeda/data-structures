@@ -8,7 +8,7 @@ var Queue = function() {
 
   // Implement the methods below
 
-  someInstance.enqueue = function(value){
+  someInstance.enqueue = function(value) {
     storage[first] = value;
     first++;
   };
@@ -28,8 +28,8 @@ var Queue = function() {
   };
 
   someInstance.size = function() {
-  return first - last;
-};
+    return first - last;
+  };
 
   return someInstance;
 };
